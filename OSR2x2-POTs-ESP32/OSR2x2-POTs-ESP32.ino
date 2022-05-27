@@ -97,14 +97,14 @@
 #define ManualA4FrequencyMax 6.0 // Max value up/down for the A4 (bend) stroke frequency, in strokes per second
 
 // Min and max range values for main OSR2x2 operations
-#define StrokeMax 300 // Sets the maximum L0 (x axis) value
-#define StrokeMin -300 // Sets the minimum L0 (x axis) value
+#define StrokeMax 350 // Sets the maximum L0 (x axis) value
+#define StrokeMin -350 // Sets the minimum L0 (x axis) value
 #define RollMax 120 // Sets the maximum R1 (y axis) value
 #define RollMin -120 // Sets the minimum R1 (y axis) value
 #define CompressionMax 40 // Sets the maximum A3 (compression) value
 #define CompressionMin -20 // Sets the minimum A3 (compression) value
-#define BendMax 40 // Sets the maximum A4 (bend) value
-#define BendMin -40 // Sets the minimum A4 (bend) value
+#define BendMax 50 // Sets the maximum A4 (bend) value
+#define BendMin -50 // Sets the minimum A4 (bend) value
 #define RingSpacingMax -100 // Sets the maximum distance between rings value
 #define RingSpacingMin 20 // Sets the minimum distance between rings value
 #define StrokeCenterMax 200 // Sets the center for L0 (x axis) value
