@@ -137,7 +137,7 @@
 #define BendFrequencyPotPin 33 // Potentiometer input that increases/decreases the A4 (bend) stroke frequency
 #define RingSpacingPotPin 32 // Potentiometer input that increases/decreases the distance between the rings
 #define StrokeRangePotPin 35 // Potentiometer input that increases/decreases the total L0 (x axis) stroke range
-#define StrokeCenterPotPin 36 // Potentiometer input that increases/decreases the 'centerpoint' of the L0 (x axis) stroke range
+#define StrokeCenterPotPin 34 // Potentiometer input that increases/decreases the 'centerpoint' of the L0 (x axis) stroke range
 
 // Arm servo zeros
 // Change these to adjust arm positions
