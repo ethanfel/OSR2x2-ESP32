@@ -74,13 +74,13 @@
 // If you want POT1 to 'increase' in value when you rotate it 'up and away' from you then set it to 0, else 1
 #define StrokeFrequencyPotPolarity 0
 // If you want POT2 to 'increase' in value when you rotate it 'up and away' from you then set it to 1, else 0
-#define CompressionFrequencyPotPolarity 1
+#define CompressionFrequencyPotPolarity 0
 // If you want POT3 to 'increase' in value when you rotate it 'up and away' from you then set it to 0, else 1
 #define BendFrequencyPotPolarity 0
 // If you want POT4 to 'increase' in value when you rotate it 'up and away' from you then set it to 1, else 0
 #define RingSpacingPotPolarity 1
 // If you want POT5 to 'increase' in value when you rotate it 'up and away' from you then set it to 0, else 1
-#define StrokeRangePotPolarity 0
+#define StrokeRangePotPolarity 1
 // If you want POT5 to 'increase' in value when you rotate it 'up and away' from you then set it to 0, else 1
 #define StrokeCenterPotPolarity 1
 
