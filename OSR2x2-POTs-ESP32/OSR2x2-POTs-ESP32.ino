@@ -123,10 +123,10 @@
 
 // Pin assignments
 // T-wist feedback goes on digital pin 2
-#define LowerLeftServo_PIN 5    // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
-#define UpperLeftServo_PIN 19   // OSR2x2/SR6 Upper Left Servo
-#define LowerRightServo_PIN 18  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
-#define UpperRightServo_PIN 21   // OSR2x2/SR6 Upper Right Servo
+#define LowerLeftServo_PIN 18   // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
+#define UpperLeftServo_PIN 21   // OSR2x2/SR6 Upper Left Servo
+#define LowerRightServo_PIN 5  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
+#define UpperRightServo_PIN 19   // OSR2x2/SR6 Upper Right Servo
 #define TwistServo_PIN 27        // Twist Servo
 #define ValveServo_PIN 4        // Valve Servo
 #define TwistFeedback_PIN 13     // Twist Servo Feedback
