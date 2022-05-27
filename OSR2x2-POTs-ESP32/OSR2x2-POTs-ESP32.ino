@@ -49,25 +49,25 @@
 //
 // Potentiometer functions
 //
-//       Potentiometer 1 (StrokeFrequencyPotPin) - Increases/Decreases L0 (x axis) stroke frequency in manual mode
+//       Potentiometer 6 (StrokeFrequencyPotPin) - Increases/Decreases L0 (x axis) stroke frequency in manual mode
 //                                                        - Also switches firmware mode to T-Code processing when the potentiometer and hence L0 (x axis) stroke frequency
 //                                                          is 0 (near), when the stroker speed is increased to anything about 0 then the firmware mode automatically
 //                                                          switches back to manual mode.
 //
-//       Potentiometer 2 (CompressionFrequencyPotPin) - Increases/Decreases A3 (compression) stroke frequency in manual mode and is overlaid upon the T-Code processing mode
+//       Potentiometer 4 (CompressionFrequencyPotPin) - Increases/Decreases A3 (compression) stroke frequency in manual mode and is overlaid upon the T-Code processing mode
 //                                                        - Also turns 'off' compression when the potentiometer and hence A3 (compression) stroke frequency
 //                                                          is 0 (near)
 //
-//       Potentiometer 3 (BendFrequencyPotPin) - Increases/Decreases A4 (bend) stroke frequency in manual mode and is overlaid upon the T-Code processing mode
+//       Potentiometer 2 (BendFrequencyPotPin) - Increases/Decreases A4 (bend) stroke frequency in manual mode and is overlaid upon the T-Code processing mode
 //                                                        - Also turns 'off' bend when the potentiometer and hence A4 (bend) stroke frequency
 //                                                          is 0 (near)
 //
-//       Potentiometer 4 (RingSpacingPotPin) - Increases/Decreases the average distance between the rings in manual mode and is overlaid upon the T-Code processing mode
+//       Potentiometer 3 (RingSpacingPotPin) - Increases/Decreases the average distance between the rings in manual mode and is overlaid upon the T-Code processing mode
 //                                                     - used to space the rings according to the Fleshlight, Onahole, or any other type of sleeve you are using
 //
 //       Potentiometer 5 (StrokeRangePotPin) - Increases/Decreases the total L0 (x axis) stroke range in manual mode
 //
-//       Potentiometer 6 (StrokeCenterPotPin) - Raises(Increases)/Lowers(Decreases) the 'centerpoint' of the L0 (x axis) stroke range in manual mode
+//       Potentiometer 1 (StrokeCenterPotPin) - Raises(Increases)/Lowers(Decreases) the 'centerpoint' of the L0 (x axis) stroke range in manual mode
 //
 // Potentiometer functions
 //
@@ -123,29 +123,29 @@
 
 // Pin assignments
 // T-wist feedback goes on digital pin 2
-#define LowerLeftServo_PIN 19    // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
-#define UpperLeftServo_PIN 4    // OSR2x2/SR6 Upper Left Servo
-#define LowerRightServo_PIN 21   // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
-#define UpperRightServo_PIN 18   // OSR2x2/SR6 Upper Right Servo
+#define LowerLeftServo_PIN 5    // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
+#define UpperLeftServo_PIN 19   // OSR2x2/SR6 Upper Left Servo
+#define LowerRightServo_PIN 18  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
+#define UpperRightServo_PIN 21   // OSR2x2/SR6 Upper Right Servo
 #define TwistServo_PIN 27        // Twist Servo
-#define ValveServo_PIN 5        // Valve Servo
+#define ValveServo_PIN 4        // Valve Servo
 #define TwistFeedback_PIN 13     // Twist Servo Feedback
 #define Vibe0_PIN 22             // Vibration motor 1
 #define Vibe1_PIN 23             // Vibration motor 2
-#define StrokeFrequencyPotPin 25 // Potentiometer input that increases/decreases the L0 (x axis) stroke frequency when in manual stroker mode and changes firmware modes
-#define CompressionFrequencyPotPin 26 // Potentiometer input that increases/decreases the A3 (compression) stroke frequency
-#define BendFrequencyPotPin 32 // Potentiometer input that increases/decreases the A4 (bend) stroke frequency
-#define RingSpacingPotPin 33 // Potentiometer input that increases/decreases the distance between the rings
-#define StrokeRangePotPin 34 // Potentiometer input that increases/decreases the total L0 (x axis) stroke range
-#define StrokeCenterPotPin 35 // Potentiometer input that increases/decreases the 'centerpoint' of the L0 (x axis) stroke range
+#define StrokeFrequencyPotPin 26 // Potentiometer input that increases/decreases the L0 (x axis) stroke frequency when in manual stroker mode and changes firmware modes
+#define CompressionFrequencyPotPin 25 // Potentiometer input that increases/decreases the A3 (compression) stroke frequency
+#define BendFrequencyPotPin 33 // Potentiometer input that increases/decreases the A4 (bend) stroke frequency
+#define RingSpacingPotPin 32 // Potentiometer input that increases/decreases the distance between the rings
+#define StrokeRangePotPin 35 // Potentiometer input that increases/decreases the total L0 (x axis) stroke range
+#define StrokeCenterPotPin 36 // Potentiometer input that increases/decreases the 'centerpoint' of the L0 (x axis) stroke range
 
 // Arm servo zeros
 // Change these to adjust arm positions
 // (1500 = centre)
-#define LowerLeftServo_ZERO 1470   // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
-#define UpperLeftServo_ZERO 1470   // OSR2x2/SR6 Upper Left Servo
-#define LowerRightServo_ZERO 1550  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
-#define UpperRightServo_ZERO 1515  // OSR2x2/SR6 Upper Right Servo
+#define LowerLeftServo_ZERO 1500   // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
+#define UpperLeftServo_ZERO 1500   // OSR2x2/SR6 Upper Left Servo
+#define LowerRightServo_ZERO 1500  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
+#define UpperRightServo_ZERO 1500 // OSR2x2/SR6 Upper Right Servo
 #define TwistServo_ZERO 1500
 #define ValveServo_ZERO 1500
 
