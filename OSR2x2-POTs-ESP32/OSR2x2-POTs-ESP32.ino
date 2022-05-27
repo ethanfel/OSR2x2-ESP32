@@ -65,9 +65,9 @@
 //       Potentiometer 3 (RingSpacingPotPin) - Increases/Decreases the average distance between the rings in manual mode and is overlaid upon the T-Code processing mode
 //                                                     - used to space the rings according to the Fleshlight, Onahole, or any other type of sleeve you are using
 //
-//       Potentiometer 5 (StrokeRangePotPin) - Increases/Decreases the total L0 (x axis) stroke range in manual mode
+//       Potentiometer 1 (StrokeRangePotPin) - Increases/Decreases the total L0 (x axis) stroke range in manual mode
 //
-//       Potentiometer 1 (StrokeCenterPotPin) - Raises(Increases)/Lowers(Decreases) the 'centerpoint' of the L0 (x axis) stroke range in manual mode
+//       Potentiometer 5 (StrokeCenterPotPin) - Raises(Increases)/Lowers(Decreases) the 'centerpoint' of the L0 (x axis) stroke range in manual mode
 //
 // Potentiometer functions
 //
