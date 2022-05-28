@@ -80,7 +80,7 @@
 // If you want POT4 to 'increase' in value when you rotate it 'up and away' from you then set it to 1, else 0
 #define RingSpacingPotPolarity 1
 // If you want POT5 to 'increase' in value when you rotate it 'up and away' from you then set it to 0, else 1
-#define StrokeRangePotPolarity 1
+#define StrokeRangePotPolarity 0
 // If you want POT5 to 'increase' in value when you rotate it 'up and away' from you then set it to 0, else 1
 #define StrokeCenterPotPolarity 1
 
@@ -106,7 +106,7 @@
 #define BendMax 50 // Sets the maximum A4 (bend) value
 #define BendMin -50 // Sets the minimum A4 (bend) value
 #define RingSpacingMax -100 // Sets the maximum distance between rings value
-#define RingSpacingMin 20 // Sets the minimum distance between rings value
+#define RingSpacingMin 0 // Sets the minimum distance between rings value
 #define StrokeCenterMax 200 // Sets the center for L0 (x axis) value
 #define StrokeCenterMin -200 // Sets the center for L0 (x axis) value
 
@@ -123,10 +123,10 @@
 
 // Pin assignments
 // T-wist feedback goes on digital pin 2
-#define LowerLeftServo_PIN 18   // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
-#define UpperLeftServo_PIN 21   // OSR2x2/SR6 Upper Left Servo
-#define LowerRightServo_PIN 5  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
-#define UpperRightServo_PIN 19   // OSR2x2/SR6 Upper Right Servo
+#define LowerLeftServo_PIN 21   // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
+#define UpperLeftServo_PIN 18  // OSR2x2/SR6 Upper Left Servo
+#define LowerRightServo_PIN 19  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
+#define UpperRightServo_PIN 5   // OSR2x2/SR6 Upper Right Servo
 #define TwistServo_PIN 27        // Twist Servo
 #define ValveServo_PIN 4        // Valve Servo
 #define TwistFeedback_PIN 13     // Twist Servo Feedback
@@ -143,9 +143,9 @@
 // Change these to adjust arm positions
 // (1500 = centre)
 #define LowerLeftServo_ZERO 1500   // OSR2 Left Servo, OSR2x2/SR6 Lower Left Servo
-#define UpperLeftServo_ZERO 1500   // OSR2x2/SR6 Upper Left Servo
-#define LowerRightServo_ZERO 1500  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
-#define UpperRightServo_ZERO 1500 // OSR2x2/SR6 Upper Right Servo
+#define UpperLeftServo_ZERO 1470   // OSR2x2/SR6 Upper Left Servo
+#define LowerRightServo_ZERO 1475  // OSR2 Right Servo, OSR2x2/SR6 Lower Right Servo
+#define UpperRightServo_ZERO 1515 // OSR2x2/SR6 Upper Right Servo
 #define TwistServo_ZERO 1500
 #define ValveServo_ZERO 1500
 
